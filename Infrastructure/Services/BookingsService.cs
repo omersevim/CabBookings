@@ -105,9 +105,9 @@ namespace Infrastructure.Services
             };
             return response;
         }
-        public async Task<BookingsResponseModel> DeleteBooking(DeleteBookingRequestModel model)
+        public async Task<BookingsResponseModel> DeleteBooking(int id)
         {
-            var dbBooking = await _bookingsRepository.GetById(model.Id);
+            var dbBooking = await _bookingsRepository.GetById(id);
             if(dbBooking == null)
             {
                 throw new Exception("No booking with the given ID exists");

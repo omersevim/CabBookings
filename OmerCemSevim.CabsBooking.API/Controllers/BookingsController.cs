@@ -52,12 +52,12 @@ namespace OmerCemSevim.CabsBooking.API.Controllers
             return BadRequest("Please check the data you have entered.");
         }
         [HttpDelete]
-        [Route("Delete")]
-        public async Task<IActionResult> DeleteBooking([FromBody] DeleteBookingRequestModel model)
+        [Route("Delete/{id}")]
+        public async Task<IActionResult> DeleteBooking(int id)
         {
             if (ModelState.IsValid)
             {
-                var booking = await _bookingsService.DeleteBooking(model);
+                var booking = await _bookingsService.DeleteBooking(id);
                 return Ok(booking);
             }
             return BadRequest("Please check the data you have entered.");

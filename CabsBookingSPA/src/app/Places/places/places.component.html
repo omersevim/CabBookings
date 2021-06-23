@@ -1,7 +1,7 @@
 <h2>Available Places</h2>
 <ul class="list-unstyled p-2">
     <li *ngFor="let place of places" class="m-1">
-      <a href="#" [routerLink]="['Cab', place.placeId]">
+      <a class="btn btn-outline-primary" href="#" [routerLink]="['Cab', place.placeId]">
                 {{place.placeName}}
       </a>
     </li>

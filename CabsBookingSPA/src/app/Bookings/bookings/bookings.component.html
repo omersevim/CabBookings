@@ -34,7 +34,7 @@
         <td>{{booking.fromPlace}}</td>
         <td>{{booking.toPlace}}</td>
         <td>{{booking.cabTypeName}}</td>
-        <button type="button" class="btn btn-primary">Delete Booking</button>
+        <button type="button" class="btn btn-primary m-1" (click)="remove(booking.id)">Remove</button>
       </tr>
     </tbody>
   </table>

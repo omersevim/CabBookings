@@ -42,7 +42,7 @@ export class ApiService{
     }
 
     delete(path: string, id: number){
-        return this.http.delete(`${environment.apiUrl}${path}`).pipe(
+        return this.http.delete(`${environment.apiUrl}${path}`+ '/' + id).pipe(
             map(response=>response), catchError(this.handleError)
         );
     }

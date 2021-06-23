@@ -12,7 +12,7 @@ namespace OmerCemSevim.CabsBooking.ApplicationCore.ServiceInterfaces
     {
         Task<List<BookingsResponseModel>> GetAllBookings();
         Task<BookingsResponseModel> AddBooking(AddBookingsRequestModel model);
-        Task<BookingsResponseModel> DeleteBooking(DeleteBookingRequestModel model);
+        Task<BookingsResponseModel> DeleteBooking(int id);
         Task<BookingsResponseModel> UpdateBooking(UpdateBookingRequestModel model);
     }
 }

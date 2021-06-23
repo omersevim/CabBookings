@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnInit, Output } from '@angular/core';
 import { BookingsService } from 'src/app/Core/Services/bookings.service';
 import { AddBooking } from 'src/app/Shared/models/addBooking';
 import { Booking } from 'src/app/Shared/models/bookings';
