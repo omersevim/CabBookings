@@ -11,7 +11,7 @@ namespace OmerCemSevim.CabsBooking.ApplicationCore.Entities
         public int CabTypeId { get; set; }
         public string CabTypeName { get; set; }
         //navigation
-        public ICollection<BookingsHistory> BookingHistory { get; set; }
+        public ICollection<BookingsHistory> BookingsHistories { get; set; }
         public ICollection<Bookings> Bookings { get; set; }
     }
 }

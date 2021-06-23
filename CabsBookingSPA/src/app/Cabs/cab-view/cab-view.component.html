@@ -1,0 +1,9 @@
+<ul class="list-unstyled p-2">
+    <li *ngFor="let cab of cabs"
+        class="m-1">
+      <a href="#"
+         [routerLink]="['cabs/', cab.id]">
+        {{cab.name}}
+      </a>
+    </li>
+  </ul>

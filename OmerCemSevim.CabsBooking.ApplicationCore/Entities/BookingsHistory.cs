@@ -13,7 +13,7 @@ namespace OmerCemSevim.CabsBooking.ApplicationCore.Entities
         public DateTime BookingDate { get; set; }
         public string BookingTime { get; set; }
         public int FromPlace { get; set; }
-        public int ToPlace { get; set; }
+        public int ToPlaceId { get; set; }
         public string PickupAddress { get; set; }
         public string Landmark { get; set; }
         public DateTime PickupDate { get; set; }
@@ -24,5 +24,9 @@ namespace OmerCemSevim.CabsBooking.ApplicationCore.Entities
         public string CompTime { get; set; }
         public System.Decimal Charge { get; set; }
         public string Feedback { get; set; }
+        //navigation
+        public Places FromPlaces { get; set; }
+        public Places ToPlace { get; set; }
+        public CabTypes CabType { get; set; }
     }
 }

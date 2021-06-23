@@ -10,3 +10,15 @@ C:\Users\omerc\Desktop\Homework\job\assignments\FinalAssignment\OmerCemSevim.Cab
 C:\Users\omerc\Desktop\Homework\job\assignments\FinalAssignment\OmerCemSevim.CabsBooking.ApplicationCore\obj\Debug\net5.0\OmerCemSevim.CabsBooking.ApplicationCore.dll
 C:\Users\omerc\Desktop\Homework\job\assignments\FinalAssignment\OmerCemSevim.CabsBooking.ApplicationCore\obj\Debug\net5.0\ref\OmerCemSevim.CabsBooking.ApplicationCore.dll
 C:\Users\omerc\Desktop\Homework\job\assignments\FinalAssignment\OmerCemSevim.CabsBooking.ApplicationCore\obj\Debug\net5.0\OmerCemSevim.CabsBooking.ApplicationCore.pdb
+C:\Users\omerc\Desktop\Homework\job\FinalAssignment\OmerCemSevim.CabsBooking.ApplicationCore\bin\Debug\net5.0\OmerCemSevim.CabsBooking.ApplicationCore.deps.json
+C:\Users\omerc\Desktop\Homework\job\FinalAssignment\OmerCemSevim.CabsBooking.ApplicationCore\bin\Debug\net5.0\OmerCemSevim.CabsBooking.ApplicationCore.dll
+C:\Users\omerc\Desktop\Homework\job\FinalAssignment\OmerCemSevim.CabsBooking.ApplicationCore\bin\Debug\net5.0\ref\OmerCemSevim.CabsBooking.ApplicationCore.dll
+C:\Users\omerc\Desktop\Homework\job\FinalAssignment\OmerCemSevim.CabsBooking.ApplicationCore\bin\Debug\net5.0\OmerCemSevim.CabsBooking.ApplicationCore.pdb
+C:\Users\omerc\Desktop\Homework\job\FinalAssignment\OmerCemSevim.CabsBooking.ApplicationCore\obj\Debug\net5.0\OmerCemSevim.CabsBooking.ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\omerc\Desktop\Homework\job\FinalAssignment\OmerCemSevim.CabsBooking.ApplicationCore\obj\Debug\net5.0\OmerCemSevim.CabsBooking.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\omerc\Desktop\Homework\job\FinalAssignment\OmerCemSevim.CabsBooking.ApplicationCore\obj\Debug\net5.0\OmerCemSevim.CabsBooking.ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\omerc\Desktop\Homework\job\FinalAssignment\OmerCemSevim.CabsBooking.ApplicationCore\obj\Debug\net5.0\OmerCemSevim.CabsBooking.ApplicationCore.AssemblyInfo.cs
+C:\Users\omerc\Desktop\Homework\job\FinalAssignment\OmerCemSevim.CabsBooking.ApplicationCore\obj\Debug\net5.0\OmerCemSevim.CabsBooking.ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\omerc\Desktop\Homework\job\FinalAssignment\OmerCemSevim.CabsBooking.ApplicationCore\obj\Debug\net5.0\OmerCemSevim.CabsBooking.ApplicationCore.dll
+C:\Users\omerc\Desktop\Homework\job\FinalAssignment\OmerCemSevim.CabsBooking.ApplicationCore\obj\Debug\net5.0\ref\OmerCemSevim.CabsBooking.ApplicationCore.dll
+C:\Users\omerc\Desktop\Homework\job\FinalAssignment\OmerCemSevim.CabsBooking.ApplicationCore\obj\Debug\net5.0\OmerCemSevim.CabsBooking.ApplicationCore.pdb

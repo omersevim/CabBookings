@@ -1,0 +1,41 @@
+<h2>Bookings</h2>
+
+  <table class="table table-bordered">
+    <thead class="table-primary">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Email</th>
+        <th scope="col">Booking Date</th>
+        <th scope="col">Booking Time</th>
+        <th scope="col">Pickup Address</th>
+        <th scope="col">Landmark</th>
+        <th scope="col">Pickup Date</th>
+        <th scope="col">Pickup Time</th>
+        <th scope="col">Contact No</th>
+        <th scope="col">Status</th>
+        <th scope="col">Origin</th>
+        <th scope="col">Destination</th>
+        <th scope="col">Cab Model</th>
+        <th scope="col"></th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let booking of bookings" class="m-1">
+      <tr>
+        <th scope="row">{{booking.id}}</th>
+        <td>{{booking.email}}</td>
+        <td>{{booking.bookingDate}}</td>
+        <td>{{booking.bookingTime}}</td>
+        <td>{{booking.pickupAddress}}</td>
+        <td>{{booking.landmark}}</td>
+        <td>{{booking.pickupDate}}</td>
+        <td>{{booking.pickupTime}}</td>
+        <td>{{booking.contactNo}}</td>
+        <td>{{booking.status}}</td>
+        <td>{{booking.fromPlace}}</td>
+        <td>{{booking.toPlace}}</td>
+        <td>{{booking.cabTypeName}}</td>
+        <button type="button" class="btn btn-primary">Delete Booking</button>
+      </tr>
+    </tbody>
+  </table>
+  

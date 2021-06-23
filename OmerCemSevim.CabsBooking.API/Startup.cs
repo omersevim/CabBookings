@@ -1,4 +1,6 @@
 using Infrastructure.Data;
+using Infrastructure.Repositories;
+using Infrastructure.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -9,6 +11,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using OmerCemSevim.CabsBooking.ApplicationCore.RepositoryInterfaces;
+using OmerCemSevim.CabsBooking.ApplicationCore.ServiceInterfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -39,6 +43,13 @@ namespace OmerCemSevim.CabsBooking.API
             {
                 options.UseSqlServer(Configuration.GetConnectionString("CabsBookingDbConnection"));
             });
+
+            services.AddScoped<ICabRepository, CabRepository>();
+            services.AddScoped<ICabService, CabService>();
+            services.AddScoped<IPlacesRepository, PlacesRepository>();
+            services.AddScoped<IPlacesService, PlacesService>();
+            services.AddScoped<IBookingsRepository, BookingsRepository>();
+            services.AddScoped<IBookingsService, BookingsService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -50,7 +61,10 @@ namespace OmerCemSevim.CabsBooking.API
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "OmerCemSevim.CabsBooking.API v1"));
             }
-
+            app.UseCors(builder =>
+            {
+                builder.WithOrigins(Configuration.GetValue<string>("angularSPAClientUrl")).AllowAnyHeader().AllowAnyMethod().AllowCredentials();
+            });
             app.UseHttpsRedirection();
 
             app.UseRouting();

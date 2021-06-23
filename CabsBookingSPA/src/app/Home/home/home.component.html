@@ -1,0 +1,8 @@
+<h2>Available Cabs</h2>
+<ul class="list-unstyled p-2">
+    <li *ngFor="let cab of cabs" class="m-1">
+      <a [routerLink]="[cab.cabTypeId, 'bookings']">
+          {{cab.cabTypeName}}
+      </a>
+    </li>
+  </ul>

@@ -5820,11 +5820,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\omerc\\Desktop\\Homework\\job\\assignments\\FinalAssignment\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\omerc\\Desktop\\Homework\\job\\FinalAssignment\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "C:\\Users\\omerc\\Desktop\\Homework\\job\\assignments\\FinalAssignment\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "C:\\Users\\omerc\\Desktop\\Homework\\job\\FinalAssignment\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\omerc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\omerc\\Desktop\\Homework\\job\\assignments\\FinalAssignment\\Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\omerc\\Desktop\\Homework\\job\\FinalAssignment\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\omerc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5841,8 +5841,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\omerc\\Desktop\\Homework\\job\\assignments\\FinalAssignment\\OmerCemSevim.CabsBooking.ApplicationCore\\OmerCemSevim.CabsBooking.ApplicationCore.csproj": {
-              "projectPath": "C:\\Users\\omerc\\Desktop\\Homework\\job\\assignments\\FinalAssignment\\OmerCemSevim.CabsBooking.ApplicationCore\\OmerCemSevim.CabsBooking.ApplicationCore.csproj"
+            "C:\\Users\\omerc\\Desktop\\Homework\\job\\FinalAssignment\\OmerCemSevim.CabsBooking.ApplicationCore\\OmerCemSevim.CabsBooking.ApplicationCore.csproj": {
+              "projectPath": "C:\\Users\\omerc\\Desktop\\Homework\\job\\FinalAssignment\\OmerCemSevim.CabsBooking.ApplicationCore\\OmerCemSevim.CabsBooking.ApplicationCore.csproj"
             }
           }
         }

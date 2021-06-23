@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xfiVTUEwgjahIRyhHik+v2zsZ2rL268jMDvNqlwuoaedbujoof/nCAbkczA3RNPH+MCelM+OuyZqd4vv0LM0GA==",
+  "dgSpecHash": "igqABLfrNKYpc52o/IBW99wiSH7vnzZMjOcgDPG5E455jlV89w8E1a0O0+2I/1XTb678BOAQMBc2WE7NTsN44A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\omerc\\Desktop\\Homework\\job\\assignments\\FinalAssignment\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\omerc\\Desktop\\Homework\\job\\FinalAssignment\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\omerc\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\omerc\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
