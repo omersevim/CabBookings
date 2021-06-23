@@ -1,7 +1,7 @@
 import { Component, Input, OnInit, Output } from '@angular/core';
+import { Router } from '@angular/router';
 import { BookingsService } from 'src/app/Core/Services/bookings.service';
 import { AddBooking } from 'src/app/Shared/models/addBooking';
-import { Booking } from 'src/app/Shared/models/bookings';
 
 @Component({
   selector: 'app-add-booking',
@@ -24,7 +24,7 @@ export class AddBookingComponent implements OnInit {
     cabTypeName: '',
     status: 'Booked'
   };
-  constructor(private bookingService: BookingsService) { }
+  constructor(private bookingService: BookingsService, private router:Router) { }
 
   ngOnInit(): void {
    
@@ -33,7 +33,7 @@ export class AddBookingComponent implements OnInit {
     this.bookingService.createBooking(this.booking).subscribe(
       b =>{
         this.booking = b;
-        console.log(this.booking);
+        this.router.navigateByUrl('/')
       }
     )
   }

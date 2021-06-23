@@ -50,6 +50,8 @@ namespace OmerCemSevim.CabsBooking.API
             services.AddScoped<IPlacesService, PlacesService>();
             services.AddScoped<IBookingsRepository, BookingsRepository>();
             services.AddScoped<IBookingsService, BookingsService>();
+            services.AddScoped<IBookingsHistoryRepository, BookingsHistoryRepository>();
+            services.AddScoped<IBookingsHistoryService, BookingsHistoryService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

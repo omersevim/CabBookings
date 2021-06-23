@@ -8,10 +8,10 @@ using System.Threading.Tasks;
 
 namespace OmerCemSevim.CabsBooking.ApplicationCore.RepositoryInterfaces
 {
-    public interface IBookingsRepository : IAsyncRepository<Bookings> 
+    public interface IBookingsHistoryRepository: IAsyncRepository<BookingsHistory>
     {
-        Task<IEnumerable<Bookings>> GetAllBookings();
-        Task<Bookings> GetBookingsByEmail(string email);
-        Task<List<Bookings>> GetBookingsByCabId(int cabId);
+        Task<IEnumerable<BookingsHistory>> GetAllBookings();
+        Task<BookingsHistory> GetBookingsByEmail(string email);
+        Task<List<BookingsHistory>> GetBookingsByCabId(int cabId);
     }
 }
